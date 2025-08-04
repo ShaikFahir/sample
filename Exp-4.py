@@ -13,4 +13,4 @@ for cnt in contours :
         cv2.drawContours(original,[cnt],-1,(0,225,0),1)
 cv2.imshow("Contours with Bounding Boxes",original)
 cv2.waitKey(0)
-cv2.destroyAllWindows(1) 
+cv2.destroyAllWindows() 
